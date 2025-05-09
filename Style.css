@@ -6,7 +6,7 @@
 body{
 
     font-family: 'Poppins',sans-serif;
-    background-color: #e1dcda;
+    background-color: #cac5c3;
 
 }
 
@@ -1205,6 +1205,60 @@ body{
     background-color: #e2531197;
 }
 
+
+
+.developer-container .content-container .tools-container{
+
+   
+    align-content: center;
+     
+}
+.developer-container .content-container .tools-container img{
+
+    width: 10vw;
+}
+.developer-container .content-container .tools-container .tools{
+
+    width: 30vw;
+    padding: 20px;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+}
+
+.developer-container .content-container .tools-container .tools .image{
+
+    text-align: center;
+    text-transform: uppercase;
+    
+} 
+.developer-container .content-container .tools-container .tools .context .btn{
+
+   padding-top: 10px;
+   border-radius: 5px;
+    color: rgb(46, 50, 53);
+    transition: 0.3s;
+    text-decoration:underline;
+  
+}
+.developer-container .content-container .tools-container .tools .context p{
+
+    margin-bottom: 10px;
+}
+
+.developer-container .content-container .tools-container .tools .context .btn:hover{
+
+  color: #162cd6;
+}
+.developer-container .content-container{
+
+    display: flex;
+    justify-content: space-around;
+    width: 70vw;
+    gap: 30px;
+    margin: 20px;
+    flex-wrap: wrap;
+}
 .developer-container{
 
     padding: 20px;
@@ -1212,15 +1266,16 @@ body{
     h1{
 
         font-size: 2.5rem;
+        color: #0683dc;
     }
 }
 .developer-container .card{
 
      
-    width: 20vw;
+  
     box-shadow: 0 0 10px rgb(96, 95, 95);
-    padding: 10px;
-    margin-top: 20px;
+    padding: 20px;
+  
     border-radius: 10px;
 
 
@@ -1230,14 +1285,21 @@ body{
 
     width: 15vw;
     justify-self: center;
+    
 }
 .developer-container .card .info{
 
 
     margin-top: 10px;
     p{
-
+     
+        text-align: center;
         margin-top: 10px;
+    }
+
+    h3{
+
+        justify-self: center;
     }
 }
 .developer-container .card .profile img{

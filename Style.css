@@ -1219,8 +1219,12 @@ body{
 }
 .developer-container .content-container .tools-container .tools{
 
+    background-color: #0695fc52;
+    border-radius: 10px;
+    margin-bottom: 10px;
     width: 30vw;
-    padding: 20px;
+    gap: 10px;
+    padding: 10px;
     justify-items: center;
     display: flex;
     align-items: center;
@@ -1447,17 +1451,24 @@ background-color: #0695fcd8;
 .navagation .logo{
 
     justify-self: center;
-    width: 50vw;
+    width:200px;
 }
 
 .navagation .nav-link ul{
 
-    justify-self: center;
+  
+    width: 100%;
+   
+  
 }
 .navagation{
 
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 600;
+}
+.navagation .nav-link ul li a{
+
+    padding: 10px;
 }
 /*end*/
 
@@ -1732,6 +1743,22 @@ margin: 10px;
 
     width: 50vw;
   }
+
+    .developer-container .tools-container{
+
+        width: 100%;
+    }
+
+    .developer-container .content-container .tools-container .tools{
+
+        width: 100%;
+        margin-top: 20px;
+      background-color: #0695fc52;
+        img{
+
+            width: 30px;
+        }
+    }
   /*End*/
 
 /*about-philippines*/

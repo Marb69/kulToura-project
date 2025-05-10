@@ -1239,12 +1239,13 @@ body{
 } 
 .developer-container .content-container .tools-container .tools .context .btn{
 
-   padding-top: 10px;
+   margin-top: 10px;
+   padding: 5px;
    border-radius: 5px;
-    color: rgb(46, 50, 53);
+    color: rgb(204, 206, 207);
     transition: 0.3s;
-    text-decoration:underline;
-  
+    text-decoration: none;
+    background-color: #5393dc;
 }
 .developer-container .content-container .tools-container .tools .context p{
 
@@ -1253,7 +1254,9 @@ body{
 
 .developer-container .content-container .tools-container .tools .context .btn:hover{
 
-  color: #162cd6;
+  color: #333437;
+  background-color: #5b6168;
+ 
 }
 .developer-container .content-container{
 
@@ -1300,11 +1303,13 @@ body{
      
         text-align: center;
         margin-top: 10px;
+        color: #6b7175;
     }
 
     h3{
 
         justify-self: center;
+        color: #414243;
     }
 }
 .developer-container .card .profile img{
@@ -1381,6 +1386,22 @@ background-color: #0695fcd8;
 
 
     width: 20px;
+}
+.social-media-container-about{
+
+ 
+    justify-items: center;
+}
+.social-media-about img{
+
+    margin: 30px;
+      transition: .5s;
+     
+}
+.social-media-about img:hover{
+
+    transform: translatey(-10px);
+    transition: .5s;
 }
 .footer-content-container{
 

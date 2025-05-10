@@ -308,9 +308,9 @@ body{
     color: rgb(248, 232, 232);
     padding-bottom: 10px;
     margin: 10px;
-
+    width: 50vw;
     font-weight: 500;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     text-align:left;
 }
 
@@ -334,8 +334,9 @@ body{
 .treasure-container{
 
 
-    
+    padding: 30px;
     display: flex;
+    gap: 10px;
    flex-wrap: wrap;
    justify-content: center;
     
@@ -362,8 +363,8 @@ body{
 .treasure-card{
 
     background-color: #ebeced;
-    margin: 10px;
-    width: 20vw;
+    
+    width: 300px;
     padding: 10px;
     justify-items: center;
     border-radius: 5px;
@@ -422,7 +423,7 @@ body{
 .Gallery-treasure{
 
    
-    width: 45vw;
+    width: 650px;
     align-content: center;
    
 }
@@ -1270,7 +1271,7 @@ body{
     h1{
 
         font-size: 2.5rem;
-        color: #0683dc;
+        color: #535557;
     }
 }
 .developer-container .card{
@@ -1653,14 +1654,16 @@ margin: 10px;
   .philippines-heroes .heroes-container{
 
     display: block;
+    width: 100%;
  
   }
   
   .philippines-heroes .heroes-container .heroes-card{
 
     display: block  ;
-    width: 90%;
+    width: 80%;
     margin: 10px;
+    justify-self: center;
     
   }
 
